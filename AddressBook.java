@@ -81,7 +81,7 @@ public class AddressBook {
             System.out.println("6. Salir");
             System.out.print("Elige una opcion: ");
             choice = scanner.nextInt();
-            scanner.nextLine(); // Limpiar el buffer
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -120,9 +120,9 @@ public class AddressBook {
 
     // Metodo para correr el programa
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);  // Inicializamos el scanner
+        Scanner scanner = new Scanner(System.in);  
         AddressBook addressBook = new AddressBook();
-        addressBook.menu(scanner);  // Pasamos el scanner al menú
-        scanner.close();  // Cerramos el scanner al final de la ejecución
+        addressBook.menu(scanner);  
+        scanner.close();  
     }
 }
