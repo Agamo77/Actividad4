@@ -72,14 +72,14 @@ public class AddressBook {
         int choice;
 
         while (true) {
-            System.out.println("\nMenú:");
+            System.out.println("\nMenu:");
             System.out.println("1. Mostrar contactos");
             System.out.println("2. Crear contacto");
             System.out.println("3. Borrar contacto");
             System.out.println("4. Guardar contactos");
             System.out.println("5. Cargar contactos");
             System.out.println("6. Salir");
-            System.out.print("Elige una opción: ");
+            System.out.print("Elige una opcion: ");
             choice = scanner.nextInt();
             scanner.nextLine(); // Limpiar el buffer
 
